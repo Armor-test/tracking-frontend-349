@@ -1,0 +1,35 @@
+# CODEOWNERS file for tracking-frontend-349
+# Global owners - will be requested for all PRs
+* @Armor-test/team-frontend @Armor-test/grp-storage @Armor-test/grp-reporting
+
+# Directory ownership
+/db/ @Armor-test/squad-reporting @Armor-test/squad-api
+/ui/ @Armor-test/grp-payments @Armor-test/dept-data @Armor-test/squad-ux
+/tests/ @Armor-test/team-core @Armor-test/team-frontend @Armor-test/dept-notifications
+/data/ @Armor-test/squad-performance @Armor-test/team-notifications
+/core/ @Armor-test/dept-api @Armor-test/dept-reporting @Armor-test/squad-research
+/static/ @Armor-test/team-governance @Armor-test/dept-test
+/tools/ @Armor-test/team-security @Armor-test/dept-logging @Armor-test/unit-cloud
+/styles/ @Armor-test/team-reporting @Armor-test/grp-integration @Armor-test/squad-api
+/models/ @Armor-test/dept-reporting @Armor-test/dept-automation @Armor-test/squad-ml
+/extensions/ @Armor-test/dept-data @Armor-test/unit-design @Armor-test/squad-research
+/plugins/ @Armor-test/dept-api @Armor-test/dept-security @Armor-test/team-frontend
+
+# File type ownership
+*.graphql @Armor-test/grp-reporting @Armor-test/unit-test @Armor-test/squad-reporting
+*.h @Armor-test/dept-logging @Armor-test/grp-search
+*.py @Armor-test/dept-logging @Armor-test/grp-storage
+*.c @Armor-test/dept-billing @Armor-test/team-frontend @Armor-test/squad-ux
+*.swift @Armor-test/grp-integration @Armor-test/team-core @Armor-test/unit-cloud
+*.properties @Armor-test/squad-qa @Armor-test/squad-cache
+*.proto @Armor-test/grp-api @Armor-test/dept-reliability
+*.cs @Armor-test/squad-reporting @Armor-test/dept-billing
+*.rb @Armor-test/team-core @Armor-test/grp-ui @Armor-test/grp-search
+*.md @Armor-test/unit-cloud @Armor-test/squad-product
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
